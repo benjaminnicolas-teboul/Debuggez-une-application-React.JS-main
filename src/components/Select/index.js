@@ -9,30 +9,34 @@ const Select = ({
   selection,
   onChange,
   name,
+  value,
   titleEmpty,
   label,
   type = "normal",
 }) => {
-  const [value, setValue] = useState();
   const [collapsed, setCollapsed] = useState(true);
+
   const changeValue = (newValue) => {
-    onChange();
-    setValue(newValue);
-    setCollapsed(newValue);
+    onChange(newValue); // Transmet la valeur au parent
+    setCollapsed(true); // Ferme la liste après sélection
   };
+
   return (
     <div className={`SelectContainer ${type}`} data-testid="select-testid">
       {label && <div className="label">{label}</div>}
       <div className="Select">
         <ul>
-          <li className={collapsed ? "SelectTitle--show" : "SelectTitle--hide"}>
-            {value || (!titleEmpty && "Toutes")}
-          </li>
+          {collapsed && (
+            <li className="SelectTitle--show">
+              {value && value.length > 0 ? value : !titleEmpty && "Toutes"}
+            </li>
+          )}
+
           {!collapsed && (
             <>
               {!titleEmpty && (
                 <li onClick={() => changeValue(null)}>
-                  <input defaultChecked={!value} name="selected" type="radio" />{" "}
+                  <input defaultChecked={!value} name="selected" type="radio" />
                   Toutes
                 </li>
               )}
@@ -85,10 +89,11 @@ Select.propTypes = {
   selection: PropTypes.arrayOf(PropTypes.string).isRequired,
   onChange: PropTypes.func,
   name: PropTypes.string,
+  value: PropTypes.string,
   titleEmpty: PropTypes.bool,
   label: PropTypes.string,
   type: PropTypes.string,
-}
+};
 
 Select.defaultProps = {
   onChange: () => null,
@@ -96,6 +101,7 @@ Select.defaultProps = {
   label: "",
   type: "normal",
   name: "select",
-}
+  value: "",
+};
 
 export default Select;
