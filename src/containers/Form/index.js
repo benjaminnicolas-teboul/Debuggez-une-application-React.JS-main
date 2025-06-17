@@ -56,8 +56,8 @@ const Form = ({ onSuccess, onError }) => {
             onChange={(e) => setPrenom(e.target.value)}
           />
           <Select
-            selection={["Personnel", "Entreprise"]}
-            label="Type"
+            selection={["Personel", "Entreprise"]}
+            label="Personel / Entreprise"
             value={type}
             onChange={setType}
             
@@ -71,7 +71,7 @@ const Form = ({ onSuccess, onError }) => {
             type={BUTTON_TYPES.SUBMIT} 
             disabled={sending}
           >
-            {sending ? "Envoi En cours..." : "Envoyer"}
+            {sending ? "En cours" : "Envoyer"}
           </Button>
         </div>
         <div className="col">

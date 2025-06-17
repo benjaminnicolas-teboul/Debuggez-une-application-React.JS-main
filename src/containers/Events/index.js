@@ -13,25 +13,25 @@ const EventList = () => {
   const [type, setType] = useState();
   const [currentPage, setCurrentPage] = useState(1);
 
-  // 1. Filtrage par type
+ 
   const filteredEvents =
     (!type
       ? data?.events
       : data?.events?.filter((event) => event.type === type)) || [];
 
-  // 2. Pagination sur la liste filtrée
+
   const paginatedEvents = filteredEvents.slice(
     (currentPage - 1) * PER_PAGE,
     currentPage * PER_PAGE
   );
 
-  // 3. Calcul du nombre de pages
+ 
   const pageNumber = Math.ceil(filteredEvents.length / PER_PAGE);
 
-  // 4. Liste des types pour le Select
+ 
   const typeList = new Set(data?.events?.map((event) => event.type));
 
-  // 5. Remettre la page à 1 quand on change de filtre
+ 
   const changeType = (evtType) => {
     setCurrentPage(1);
     setType(evtType);
@@ -48,6 +48,7 @@ const EventList = () => {
           <Select
             selection={Array.from(typeList)}
             onChange={(value) => (value ? changeType(value) : changeType(null))}
+            value={type || "Toutes"}
           />
           <div id="events" className="ListContainer">
             {paginatedEvents.map((event) => (

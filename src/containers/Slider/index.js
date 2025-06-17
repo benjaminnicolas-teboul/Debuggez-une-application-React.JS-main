@@ -59,7 +59,7 @@ const Slider = () => {
                   });
                   return (
                     <div>
-                      {day}{month}{year}
+                      {day} {month} {year}
                     </div>
                   );
                 })()}
