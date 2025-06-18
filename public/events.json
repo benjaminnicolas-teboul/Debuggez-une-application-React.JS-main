@@ -8,7 +8,7 @@
             "cover": "/images/alexandre-pellaes-6vAjp0pscX0-unsplash.png",
             "description": "Présentation des nouveaux usages UX.",
             "nb_guesses": 900,
-            "periode": "14-15-16 Avril",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -23,7 +23,7 @@
             "cover": "/images/charlesdeluvio-wn7dOzUh3Rs-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 janvier",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -38,29 +38,14 @@
             "cover": "/images/chuttersnap-Q_KdjKxntH8-unsplash.png",
             "description": "Débats et échanges autour des collaborations eco-responsable.",
             "nb_guesses": 600,
-            "periode": "24-25-26 Février",
+            "periode": "29-30 mars",
             "prestations": [
                 "1 scéne principale",
                 "1 espaces de restaurations",
                 "1 site web dédié"
             ]
         },
-        {
-            "id": 4,
-            "type": "conférence",
-            "date": "2022-08-29T20:28:45.744Z",
-            "title": "Conférence #productCON",
-            "cover": "/images/headway-F2KRf_QfCqw-unsplash.png",
-            "description": "Présentation des outils analytics aux professionnels du secteur ",
-            "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
-        },
+
         {
             "id": 5,
             "type": "expérience digitale",
@@ -69,7 +54,7 @@
             "cover": "/images/pablo-heimplatz-ZODcBkEohk8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -85,7 +70,7 @@
             "cover": "/images/priscilla-du-preez-Q7wGvnbuwj0-unsplash1.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -101,7 +86,7 @@
             "cover": "/images/product-school-dJICd7b_LlE-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -117,7 +102,7 @@
             "cover": "/images/product-school-nOvIa_x_tfo-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -133,7 +118,7 @@
             "cover": "/images/stem-list-EVgsAbL51Rk-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -149,7 +134,7 @@
             "cover": "/images/alexandre-pellaes-6vAjp0pscX0-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -165,7 +150,7 @@
             "cover": "/images/charlesdeluvio-wn7dOzUh3Rs-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 janvier",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -181,7 +166,7 @@
             "cover": "/images/chuttersnap-Q_KdjKxntH8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30 mars",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -197,7 +182,7 @@
             "cover": "/images/headway-F2KRf_QfCqw-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30 août",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -213,7 +198,7 @@
             "cover": "/images/pablo-heimplatz-ZODcBkEohk8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -229,7 +214,7 @@
             "cover": "/images/priscilla-du-preez-Q7wGvnbuwj0-unsplash1.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -245,7 +230,7 @@
             "cover": "/images/product-school-dJICd7b_LlE-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -261,7 +246,7 @@
             "cover": "/images/product-school-nOvIa_x_tfo-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
@@ -277,7 +262,7 @@
             "cover": "/images/stem-list-EVgsAbL51Rk-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
-            "periode": "24-25-26 Février",
+            "periode": "29-30-31 Avril",
             "prestations": [
                 "1 espace d’exposition",
                 "1 scéne principale",
